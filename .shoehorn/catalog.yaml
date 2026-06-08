@@ -1,0 +1,19 @@
+schemaVersion: 1
+service:
+  id: sms-gateway
+  name: SMS Gateway
+  type: service
+  tier: medium
+  description: Sends SMS via carrier gateways with failover.
+lifecycle: production
+tags:
+- adaptive-labs
+- notifications
+owner:
+- type: team
+  id: notifications
+links:
+- name: Runbook
+  url: ./docs/runbook.md
+- name: Onboarding
+  url: ./docs/onboarding.md
